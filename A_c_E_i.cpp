@@ -4,18 +4,18 @@ using namespace std ;
 
 int main()
 {
-    char i;
+    int i;
 
-    for ( i = 0; i < 26; i+=2)
+    for ( i = 65; i < 90; i+=2)
     {
-        if (i%4==0)
+        if (i%4==1)
         {
-            cout << i + 'A' << "\t";
+            cout << (char )i  << "\t";
         }
         
         else
         {
-            cout << i + 'a' << "\t";
+            cout << (char) (i + 32) << "\t";
         }
     }
 }
