@@ -25,7 +25,7 @@ int main()
         cin >> a.guj[i]; 
 
         a.total[i] = a.math[i] + a.sci[i] + a.guj[i] ;
-        cout << "Total Marks :" << a.total << "\n";
+        cout << "Total Marks :" << a.total[i] << "\n";
 
         a.per[i] = a.total[i] / 3;
         cout << "Perchantage : " << a.per[i] << "\n";
