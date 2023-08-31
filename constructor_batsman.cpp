@@ -31,7 +31,7 @@ class BATSMAN
         cout << "Enter Batsman Total Innings Runs. : ";
         cin >> runs;
 
-        batavg = calcavg();
+         calcavg();
     }
 
     void displaydata()
