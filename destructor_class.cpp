@@ -20,10 +20,10 @@ class Area
     {
         cout <<"\nArea of Rectrangle is. : "<< w * h;
     }
-
+    
     ~ Area()
     {
-        cout <<"";
+        cout <<"\nDestructor Distroy ";
     }
     Area(int b, int h)
     {
@@ -33,5 +33,5 @@ class Area
 };
 int main()
 {
-    Area a(20.2),b(15),c(10.02,15.03),d(9,6);   
+    Area a(20.56),b(15),c(10.99,5.23),d(),e(23,16);
 }
