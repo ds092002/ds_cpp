@@ -1,9 +1,10 @@
 #include<iostream>
 
 using namespace std;
+
 class Area
 {
-    public :
+     public :
 
     Area(double r)
     {
