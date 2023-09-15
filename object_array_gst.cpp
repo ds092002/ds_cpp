@@ -15,11 +15,10 @@ class GST
         cin >> num;
         cout << "Enter Price :--->";
         cin >> p ;
-        cout << "Enter Quantity :--->";
+         cout << "Enter Quantity :--->";
         cin >> q;
-        cout << "Enter Bill-Ammount :--->";
-        cin >> bill_ammount;
-
+        bill_ammount = p * q ;
+        cout << "Bill-Ammount :--->" << bill_ammount << endl;
         gst = (p * 18) / 100;
         total_gst = q * gst;
         net_bill = bill_ammount + total_gst;
