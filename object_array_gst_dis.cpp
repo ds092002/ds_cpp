@@ -86,7 +86,7 @@ int main()
     cout << endl << "No.\t" << "Price\t" << "Qunti\t" << "Ammo\t" << "GST\t" << "T-Gst\t" << "Netbill\t" << "Dis\t" << "Dis Bill\t" << endl;
     cout << endl << "============================================================================" << endl;
     
-    double p, q, bill_amount, gst, total_gst, net_bill, discount_amount, discounted_bill;
+    double p=0, q=0, bill_amount=0, gst=0, total_gst=0, net_bill=0, discount_amount=0, discounted_bill=0;
      
     for (int i = 0; i < 4; i++)
     {
