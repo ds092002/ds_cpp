@@ -51,7 +51,58 @@ class Bank
 int main()
 {
     string name;
-    double acc;
+    double ac;
 
-    Bank acc(name , acc)
+    Bank acc(name , ac);
+
+    cout <<"Account Holder Name : ";
+    cin >> name;
+
+    cout <<"Total Balance : ";
+    cin >> ac;
+
+    Bank account(name , ac);
+
+    while(true)
+    {
+        cout <<endl << "Options : "<<endl;
+        cout <<"1. Deposit : "<<endl;
+        cout <<"2. Withdraw : "<<endl;
+        cout <<"3. Display Balance : "<<endl;
+        cout <<"4. Exit : "<<endl;
+        cout <<"Enter Your Choice : ";
+
+        int choice;
+        cin >> choice;
+
+        switch (choice)
+        {
+        case 1 : 
+            double deposit_ammount;
+            cout <<"Enter The Deposit Amount : ";
+            cin >> deposit_ammount;
+            account.Deposit(deposit_ammount);
+            break;
+
+        case 2 : 
+            double withdraw_ammount;
+            cout <<"Enter The WithDraw Amount : ";
+            cin >> withdraw_ammount;
+            account.Withdraw(withdraw_ammount);
+            break;
+        
+        case 3 :
+            account.Show();
+            break;
+
+        case 4 :
+            cout <<"Exiting Program Thank You Visit Again : " ;
+            return 0;
+
+        default:
+            cout <<"You Enter Wrong Choice !!!!!!!! ";
+            break;
+        }
+    }
+
 }
