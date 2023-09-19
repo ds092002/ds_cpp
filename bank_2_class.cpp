@@ -3,20 +3,34 @@
 using namespace std;
 
 class Bank{
-    int w,d,s=0;
+    int w=0,d=0,s=0;
     public:
     void deposite()
     {
-     cout << "enter the amount :";
+     cout << "Enter Deposit Amount :";
      cin >> d;
-     s = s + d;
+     if (d > 0)
+     {
+        s = s + d;
+     }
+     else
+     {
+        cout <<"Ivalid Entry!!!!!!!" << endl;
+     }
     }
 
     void withdrow()
     {
-        cout << "enter the amount :";
+        cout << "Enter Withdraw Amount :";
         cin >> w;
-        s = s - w;
+        if (w > 0 && w <=d)
+        {
+           s = s - w;
+        }
+        else
+        {  
+          cout <<"Ivalid Entry!!!!!!!" << endl;
+        }
     }
 
     void show()
@@ -32,9 +46,9 @@ int main()
 
  
 
- cout << "press 1 for deposite amount " << endl;
- cout << "press 2 for withdrow amount " << endl;
- cout << "press 3 for show amount " << endl;
+ cout << "1 : Deposite amount " << endl;
+ cout << "2 : Withdrow amount " << endl;
+ cout << "3 : Show Balance " << endl;
  cout << "press 0 for exit " << endl;
  cout << "\n \n";
 
