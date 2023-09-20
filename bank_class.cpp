@@ -1,6 +1,7 @@
 #include<iostream>
 
 using namespace std;
+
 class Bank
 {
     string acc_name;
@@ -103,6 +104,5 @@ int main()
             cout <<"You Enter Wrong Choice !!!!!!!! ";
             break;
         }
-    }
-
+    }  
 }
