@@ -6,7 +6,7 @@ class Number
 {
     protected :
 
-    int number;
+    long long number;
 
     public :
 
@@ -27,12 +27,12 @@ class Fectorial : protected Number
     {
         getData();
 
-        for (int i = 1; i <= number; i++)
+        for (long long i = 1; i <= number; i++)
         {
             fect = fect *  i;
         }
         
-        cout <<"Fectorial Number : " << fect << endl;
+        cout <<"Fectorial Number :"<<'!'<<'=' << fect << endl;
     }
 };
 
