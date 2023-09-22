@@ -4,16 +4,14 @@ using namespace std;
 
 class Area
 {
-    int c, s, r1, t;
+    
     
 public:
 
     Area(double r)
     {
-        cout << "Area Of Circle is: ";
-        cin >> r;
-        c = 3.14 * r * r;
-        cout << c;
+        cout << "Area Of Circle is: " << 3.14 * r * r;
+        
     }
 
     Area(int s)
@@ -35,8 +33,8 @@ public:
 int main()
 {
     int choice;
-    double r, w, h,b;
-    int s;
+    double r, w, h;
+    int s , b ,h1;
 
     cout << "Choose a shape to calculate its area:\n";
     cout << "1. Circle\n";
@@ -51,31 +49,35 @@ int main()
         case 1:
             cout << "Enter the radius of the circle: ";
             cin >> r;
-            Area circle(r);
-            break;
+            {
+                Area circle(r);
+                break;
+            }    
 
         case 2:
             cout << "Enter the side length of the square: ";
             cin >> s;
-            Area square(s);
-            break;
+            {
+                Area square(s);
+                break;
+            }    
 
         case 3:
             cout << "Enter the width and height of the rectangle: ";
             cin >> w >> h;
-            Area rectangle(w, h);
-            break;
-
+            {
+                Area rectangle(w, h);
+                break;
+            }
         case 4:
             cout << "Enter the base and height of the triangle: ";
             cin >> b >> h;
-            Area triangle(b, h);
-            break;
+            {
+                Area triangle(b, h1);
+                break;
+            }    
 
         default:
             cout << "Invalid choice!";
-            break;
     }
-
-    return 0;
 }

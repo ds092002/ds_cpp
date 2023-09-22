@@ -64,14 +64,14 @@ int main()
              cout <<"\nEnter The Width and Height Of The Rectangle. :";
              cin >> w >> h1;
              {
-                Area circle(w , h1);
+                Area Rectrangle(w , h1);
                 break;
              }
         case 4:
              cout <<"\nEnter The Base and Height Of The Triangle. :";
              cin >> b >> h;
              {
-                Area circle(b , h);
+                Area Triangle(b , h);
                 break;
              }
         default :
