@@ -16,7 +16,7 @@ int main()
     {
         filestream << "My Name is Dhaval";
         filestream << "\nI Go Skill Qode Daily";
-        filestream << "\nAnd I learn the full stack in SkillQode";
+        filestream << "\nAnd I Learn The Full Stack in SkillQode";
         filestream.clear();
     }
 
