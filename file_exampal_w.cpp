@@ -10,8 +10,8 @@ using namespace std;
 
 int main()
 {
-    ofstream filestream("D:/ds_cpp/ds_cpp/file1.txt");
-    //ofstream filestream("file1.txt");
+    //ofstream filestream("D:/ds_cpp/ds_cpp/file1.txt");
+    ofstream filestream("file1.txt");
     if (filestream.is_open())
     {
         filestream << "My Name is Dhaval";

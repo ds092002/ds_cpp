@@ -39,7 +39,7 @@ class Circle : public Shape
         }
 };
 
-int main(void)
+int main()
 {
     Shape *b;
     Rectangle r;
