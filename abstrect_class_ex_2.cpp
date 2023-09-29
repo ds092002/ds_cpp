@@ -49,9 +49,9 @@ int main()
     b->display();
 
     b = &r;
-    b->draw();
     b->display();
+    b->draw();
     b = &c;
-    b->draw();
     b->display();
+    b->draw();
 }

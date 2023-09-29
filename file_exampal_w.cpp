@@ -17,7 +17,7 @@ int main()
         filestream << "My Name is Dhaval";
         filestream << "\nI Go Skill Qode Daily";
         filestream << "\nAnd I Learn The Full Stack in SkillQode";
-        filestream.clear();
+        filestream.close();
     }
 
     else
