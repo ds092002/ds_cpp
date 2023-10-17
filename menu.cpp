@@ -15,16 +15,16 @@ public:
     }
     void set_detail()
     {
-        cout << "Enter Your customer Name :-> ";
+        cout << "Enter Your Customer Name :-> ";
         cin >> customername;
-        cout << "Enter Your mobile Number :-> ";
+        cout << "Enter Your Mobile Number :-> ";
         cin >> mobilenum;
     }
     void get_detail()
     {
         cout << endl;
-        cout << "\tcosromerName :-> " << customername << endl;
-        cout << "\tmobile num :-> " << mobilenum << endl;
+        cout << "\tCustomer Name :-> " << customername << endl;
+        cout << "\tMobile Number :-> " << mobilenum << endl;
     }
 
     int Soup()
@@ -365,6 +365,8 @@ public:
     void Get_order()
     {
         cout << "\n\t\t\t\tYour Orderd Details : " << endl;
+        cout << "\n\t\t\t*******************************\n";
+        get_detail();
         cout << "\n\t\t\t*************\n";
         for (int i = 0; i <= 19; i++)
         {
