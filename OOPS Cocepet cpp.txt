@@ -1,0 +1,286 @@
+[1]. What is OOPs?
+Programmers can use objects to represent real-world circumstances thanks to object-oriented programming.
+Any entity with states and behaviors is an object. While methods define an item’s behaviors, states reflect
+the characteristics or data of an entity. Objects include students, workers, books, etc. By exchanging messages, 
+these things communicate with one another. A class is also a template for building an object. A class is 
+required in order to generate objects. For instance, there needs to be an Employee class in order to generate 
+an Employee object.
+[1]. OOPs શું છે?
+પ્રોગ્રામર્સ ઑબ્જેક્ટ-ઓરિએન્ટેડ પ્રોગ્રામિંગને કારણે વાસ્તવિક દુનિયાના સંજોગોને રજૂ કરવા ઑબ્જેક્ટનો ઉપયોગ કરી શકે છે. રાજ્યો અને વર્તણૂકો સાથેની કોઈપણ એન્ટિટી એ એક પદાર્થ છે.
+ જ્યારે પદ્ધતિઓ આઇટમની વર્તણૂકને વ્યાખ્યાયિત કરે છે, ત્યારે રાજ્યો એક એન્ટિટીની લાક્ષણિકતાઓ અથવા ડેટાને પ્રતિબિંબિત કરે છે. ઑબ્જેક્ટ્સમાં વિદ્યાર્થીઓ, કામદારો, પુસ્તકો વગેરેનો
+ સમાવેશ થાય છે. સંદેશાઓની આપલે દ્વારા, આ વસ્તુઓ એકબીજા સાથે વાતચીત કરે છે. ઑબ્જેક્ટ બનાવવા માટે વર્ગ પણ એક નમૂનો છે. ઑબ્જેક્ટ જનરેટ કરવા માટે એક વર્ગ જરૂરી છે.
+ દાખલા તરીકે, એમ્પ્લોયી ઑબ્જેક્ટ જનરેટ કરવા માટે કર્મચારી વર્ગ હોવો જરૂરી છે.
+
+[2]. Why use OOPs?
+Programming with OOP lets you package together data states and functionality to change those data states while
+keeping the specifics secret (Consider the analogy of a car, you can only see the steering of the car while 
+driving, the circuitry behind it is hidden from you). As a result, OOP design produces flexible, modular,
+and abstract code. Because of this, it is very helpful for developing larger programs. Using classes and objects,
+you may include OOP into your code. The objects you construct will have the states and capabilities of the class
+to which they belong.
+[2]. શા માટે OOPs નો ઉપયોગ કરો છો?
+OOP સાથે પ્રોગ્રામિંગ તમને ડેટા સ્ટેટ્સ અને વિધેયોને એકસાથે પૅકેજ કરવા દે છે અને તે ડેટા સ્ટેટ્સને બદલી શકે છે અને તે માહિતીને ગુપ્ત રાખે છે (કારની સમાનતાને ધ્યાનમાં લો, તમે ડ્રાઇવિંગ કરતી વખતે માત્ર કારનું
+સ્ટિયરિંગ જોઈ શકો છો, તેની પાછળની સર્કિટરી તમારાથી છુપાયેલી છે) . પરિણામે, OOP ડિઝાઇન લવચીક, મોડ્યુલર અને અમૂર્ત કોડ બનાવે છે. આને કારણે, તે મોટા કાર્યક્રમો વિકસાવવા માટે ખૂબ જ મદદરૂપ છે.
+વર્ગો અને વસ્તુઓનો ઉપયોગ કરીને, તમે તમારા કોડમાં OOP નો સમાવેશ કરી શકો છો. તમે જે ઑબ્જેક્ટ્સનું નિર્માણ કરો છો તેમાં તેઓ જે વર્ગના છે તેની સ્થિતિ અને ક્ષમતાઓ હશે.
+
+[3]. What is Encapsulation?
+Encapsulation is also a part of the OOPs concept. It refers to the bundling of data with the methods that operate
+on that data. It also helps to restrict any direct access to some of an object’s components.
+[3]. એન્કેપ્સ્યુલેશન શું છે?
+એન્કેપ્સ્યુલેશન પણ OOPs ખ્યાલનો એક ભાગ છે. તે ડેટા પર કાર્ય કરતી પદ્ધતિઓ સાથે ડેટાના બંડલિંગનો સંદર્ભ આપે છે. તે ઑબ્જેક્ટના કેટલાક ઘટકોની કોઈપણ સીધી ઍક્સેસને પ્રતિબંધિત કરવામાં પણ મદદ કરે છે.
+
+[4]. What are the main features of OOPs?
+The main features of OOPs are given as follows:
+
+* In OOP, you combine the code into one unit so you can specify the parameters of each piece of data. This process of
+  wrapping up data into a single unit is called encapsulation. 
+* By using classes, you can generalise your object types and make your application easier to use. This is termed
+  as an abstraction.
+* The ability for a class to inherit characteristics and behaviours from another class allows for more code reuse.
+* Polymorphism allows for the creation of several objects from a single, adaptable class of code.
+[4]. OOPs ની મુખ્ય વિશેષતાઓ શું છે?
+OOPs ની મુખ્ય લાક્ષણિકતાઓ નીચે મુજબ આપવામાં આવી છે:
+
+*OOP માં, તમે કોડને એક યુનિટમાં જોડો છો જેથી કરીને તમે ડેટાના દરેક ભાગના પરિમાણોનો ઉલ્લેખ કરી શકો. ડેટાને એક એકમમાં લપેટવાની આ પ્રક્રિયાને એન્કેપ્સ્યુલેશન કહેવામાં આવે છે.
+* વર્ગોનો ઉપયોગ કરીને, તમે તમારા ઑબ્જેક્ટના પ્રકારોને સામાન્ય બનાવી શકો છો અને તમારી એપ્લિકેશનને ઉપયોગમાં સરળ બનાવી શકો છો. આને અમૂર્તતા તરીકે ઓળખવામાં આવે છે.
+* વર્ગ માટે અન્ય વર્ગની લાક્ષણિકતાઓ અને વર્તણૂકોને વારસામાં લેવાની ક્ષમતા વધુ કોડ પુનઃઉપયોગ માટે પરવાનગી આપે છે.
+* પોલીમોર્ફિઝમ કોડના એક જ, અનુકૂલનશીલ વર્ગમાંથી અનેક વસ્તુઓ બનાવવા માટે પરવાનગી આપે છે.
+
+[5]. What are the limitations of OOPs?
+Following are some of the common limitations of OOPs:
+
+* Size exceeds that of other programs.
+* It took a lot of work to make, and it runs more slowly than other programs.
+* It is inappropriate for certain types of issues.
+* It takes some getting used to.
+[5]. OOPs ની મર્યાદાઓ શું છે?
+નીચે OOPs ની કેટલીક સામાન્ય મર્યાદાઓ છે:
+
+* કદ અન્ય કાર્યક્રમો કરતાં વધી જાય છે.
+* તેને બનાવવામાં ઘણું કામ લાગ્યું, અને તે અન્ય પ્રોગ્રામ્સ કરતાં વધુ ધીમેથી ચાલે છે.
+* તે અમુક પ્રકારની સમસ્યાઓ માટે અયોગ્ય છે.
+* આદત મેળવવામાં થોડો સમય લાગે છે.
+
+[6]. What are constructors?
+The constructor has the same name as the class.
+A constructor is also a special kind of method. It is used to initialize objects of the class.
+[6]. કન્સ્ટ્રક્ટર શું છે?
+
+કન્સ્ટ્રક્ટરનું નામ વર્ગ જેવું જ છે.
+કન્સ્ટ્રક્ટર પણ એક ખાસ પ્રકારની પદ્ધતિ છે. તેનો ઉપયોગ વર્ગના ઑબ્જેક્ટને પ્રારંભ કરવા માટે થાય છે.
+
+[7]. What is the difference between a class and a structure?
+
+--> Class: Class is basically a User-defined blueprint from which objects are created. It consists of methods ( set of
+           instructions) that are performed on the objects.
+
+--> Structure: A structure is also a user-defined collection of variables. Structures are also different data types.
+
+A user-defined class serves layout or blueprint from which objects can be built. In essence, a class is made up of fields
+known as attributes and methods known as member functions that define actions. A structure is a grouping of variables of
+various data kinds under one heading.
+[7]. વર્ગ અને બંધારણ વચ્ચે શું તફાવત છે?
+
+--> વર્ગ: વર્ગ મૂળભૂત રીતે વપરાશકર્તા-વ્યાખ્યાયિત બ્લુપ્રિન્ટ છે જેમાંથી વસ્તુઓ બનાવવામાં આવે છે. તેમાં પદ્ધતિઓનો સમાવેશ થાય છે (સૂચનાઓનો સમૂહ) જે વસ્તુઓ પર કરવામાં આવે છે.
+
+--> માળખું: માળખું એ ચલોનો વપરાશકર્તા-વ્યાખ્યાયિત સંગ્રહ પણ છે. માળખાં પણ વિવિધ ડેટા પ્રકારો છે.
+
+વપરાશકર્તા-વ્યાખ્યાયિત વર્ગ લેઆઉટ અથવા બ્લુપ્રિન્ટ આપે છે જેમાંથી વસ્તુઓ બનાવી શકાય છે. સારમાં, વર્ગ એ વિશેષતાઓ તરીકે ઓળખાતા ક્ષેત્રો અને મેમ્બર ફંક્શન્સ તરીકે ઓળખાતી પદ્ધતિઓનો બનેલો છે જે ક્રિયાઓને
+વ્યાખ્યાયિત કરે છે. માળખું એ એક મથાળા હેઠળ વિવિધ પ્રકારના ડેટાના ચલોનું જૂથ છે.
+
+[8]. What is inheritance?
+Whenever one class is derived from another, it is referred to as inheritance. The child class will inherit all of the
+parent class’s public and protected properties and methods. Apart from the attributes and methods inherited from the
+parent class, it can also have its own additional set of features. The’ extends’ keyword is used to specify an 
+inherited class.
+
+If you derive a  class from another class that is known as inheritance. The child class will inherit all the public and
+protected properties and methods from the parent class. The child class can also have its own properties and methods. 
+An inherited class is defined by using the extends keyword.
+[8]. વારસો શું છે?
+જ્યારે પણ એક વર્ગ બીજામાંથી ઉતરી આવે છે, ત્યારે તેને વારસા તરીકે ઓળખવામાં આવે છે. બાળ વર્ગ પિતૃ વર્ગની તમામ જાહેર અને સુરક્ષિત મિલકતો અને પદ્ધતિઓનો વારસો મેળવશે. પિતૃ વર્ગમાંથી વારસામાં મળેલી
+વિશેષતાઓ અને પદ્ધતિઓઉપરાંત, તેની પાસે તેની પોતાની વિશેષતાઓનો વધારાનો સમૂહ પણ હોઈ શકે છે. વારસાગત વર્ગનો ઉલ્લેખ કરવા માટે 'એક્સ્ટેન્ડ્સ' કીવર્ડનો ઉપયોગ થાય છે.
+
+જો તમે અન્ય વર્ગમાંથી વર્ગ મેળવો છો જે વારસા તરીકે ઓળખાય છે. બાળ વર્ગને તમામ જાહેર અને સુરક્ષિત મિલકતો અને પદ્ધતિઓ પિતૃ વર્ગ પાસેથી વારસામાં મળશે. બાળ વર્ગના પોતાના ગુણધર્મો અને પદ્ધતિઓ પણ હોઈ શકે છે.
+એક વારસાગત વર્ગને વિસ્તૃત કીવર્ડનો ઉપયોગ કરીને વ્યાખ્યાયિત કરવામાં આવે છે.
+
+[9]. What is a destructor?
+A destructor is a method that is called automatically when an object is destroyed.
+
+The destructor also recovers the heap space which was allocated to the destroyed object. It also start closing the files
+and database connections of the object, etc.
+[9]. વિનાશક શું છે?
+ડિસ્ટ્રક્ટર એ એક પદ્ધતિ છે જે ઑબ્જેક્ટનો નાશ થાય ત્યારે આપોઆપ કહેવાય છે.
+
+ડિસ્ટ્રક્ટર ઢગલાવાળી જગ્યાને પણ પુનઃપ્રાપ્ત કરે છે જે નાશ પામેલા પદાર્થને ફાળવવામાં આવી હતી. તે ઑબ્જેક્ટ વગેરેની ફાઇલો અને ડેટાબેઝ કનેક્શન્સને પણ બંધ કરવાનું શરૂ કરે છે.
+
+[10]. What is the need for OOPs?
+* There are many reasons why OOPs is mostly preferred, but the most important among them are: 
+
+* OOPs helps users to understand the software easily, although they don’t know the actual implementation.
+* With OOPs, the readability, understandability, and maintainability of the code increase multifold.
+* Even very big software can be easily written and managed easily using OOPs.
+[10]. OOPs ની શું જરૂર છે?
+* OOP ને શા માટે પસંદ કરવામાં આવે છે તેના ઘણા કારણો છે, પરંતુ તેમાંથી સૌથી મહત્વપૂર્ણ છે:
+
+* OOPs વપરાશકર્તાઓને સોફ્ટવેરને સરળતાથી સમજવામાં મદદ કરે છે, જો કે તેઓ વાસ્તવિક અમલીકરણને જાણતા નથી.
+* OOPs સાથે, કોડની વાંચનક્ષમતા, સમજવાની ક્ષમતા અને જાળવણીક્ષમતા અનેક ગણી વધી જાય છે.
+* ખૂબ મોટા સોફ્ટવેર પણ OOPs નો ઉપયોગ કરીને સરળતાથી લખી અને સંચાલિત કરી શકાય છે.
+
+[11]. Object-Oriented Programming or OOP:
+Object-oriented programming (OOP) organizes programs as objects, that contain some data and have some behavior.
+[૧૧]. ઑબ્જેક્ટ-ઓરિએન્ટેડ પ્રોગ્રામિંગ અથવા OOP:
+ઑબ્જેક્ટ-ઓરિએન્ટેડ પ્રોગ્રામિંગ (OOP) પ્રોગ્રામને ઑબ્જેક્ટ તરીકે ગોઠવે છે, જેમાં અમુક ડેટા હોય છે અને અમુક વર્તન હોય છે.
+
+[12]. What are some advantages of using OOPs?
+--> OOPs is very helpful in solving very complex level of problems.
+
+--> Highly complex programs can be created, handled, and 
+    maintained easily using object-oriented programming.
+
+--> OOPs, promote code reuse, thereby reducing redundancy.
+
+--> OOPs also helps to hide the unnecessary details with the help of 
+    Data Abstraction.
+
+--> OOPs, are based on a bottom-up approach, unlike the Structural 
+    programming paradigm, which uses a top-down approach.
+
+--> Polymorphism offers a lot of flexibility in OOPs.
+[12]. OOP નો ઉપયોગ કરવાના કેટલાક ફાયદા શું છે?
+--> OOPs ખૂબ જટિલ સ્તરની સમસ્યાઓ ઉકેલવામાં ખૂબ મદદરૂપ છે.
+
+--> અત્યંત જટિલ પ્રોગ્રામ બનાવી શકાય છે, સંભાળી શકાય છે અને
+      ઑબ્જેક્ટ-ઓરિએન્ટેડ પ્રોગ્રામિંગનો ઉપયોગ કરીને સરળતાથી જાળવવામાં આવે છે.
+
+--> OOPs, કોડના પુનઃઉપયોગને પ્રોત્સાહન આપો, જેનાથી રીડન્ડન્સી ઘટે છે.
+
+--> OOPs ની મદદથી બિનજરૂરી વિગતો છુપાવવામાં પણ મદદ કરે છે
+           ડેટા એબ્સ્ટ્રેક્શન.
+
+--> OOPs, માળખાકીયથી વિપરીત, બોટમ-અપ અભિગમ પર આધારિત છે
+      પ્રોગ્રામિંગ પેરાડાઈમ, જે ટોપ-ડાઉન અભિગમનો ઉપયોગ કરે છે.
+
+--> પોલીમોર્ફિઝમ OOPs માં ઘણી રાહત આપે છે.
+
+[13]. What is a class?
+A class can be understood as a template or a blueprint, which contains some values, known as member data or member,
+and some set of rules, known as behaviors or functions. So when an object is created, it automatically takes the
+data and functions that are defined in the class.
+
+Therefore the class is basically a template or blueprint for objects. Also one can create as many objects as they
+want based on a class.
+
+class is known as user define datatype.
+[13]. વર્ગ શું છે?
+વર્ગને ટેમ્પલેટ અથવા બ્લુપ્રિન્ટ તરીકે સમજી શકાય છે, જેમાં કેટલાક મૂલ્યો હોય છે, જેને સભ્ય ડેટા અથવા સભ્ય તરીકે ઓળખવામાં આવે છે, અને કેટલાક નિયમોનો સમૂહ, જે વર્તન અથવા કાર્યો તરીકે ઓળખાય છે.
+ તેથી જ્યારે ઑબ્જેક્ટ બનાવવામાં આવે છે, ત્યારે તે વર્ગમાં વ્યાખ્યાયિત થયેલ ડેટા અને કાર્યોને આપમેળે લે છે.
+તેથી વર્ગ મૂળભૂત રીતે ઑબ્જેક્ટ્સ માટે ટેમ્પલેટ અથવા બ્લુપ્રિન્ટ છે. તેમજ કોઈ વર્ગના આધારે ગમે તેટલી વસ્તુઓ બનાવી શકે છે.
+વર્ગને વપરાશકર્તા વ્યાખ્યાયિત ડેટાટાઈપ તરીકે ઓળખવામાં આવે છે.
+
+[14]. What is an object?
+An object refers to the instance of the class, which contains the instance of the members and behaviors defined in the
+class template. In the real world, an object is an actual entity to which a user interacts, whereas class is just the
+blueprint for that object. So the objects consume space and have some characteristic behavior.
+For example, a specific car.
+[14]. પદાર્થ શું છે?
+ઑબ્જેક્ટ વર્ગના દાખલાનો ઉલ્લેખ કરે છે, જેમાં વર્ગના નમૂનામાં વ્યાખ્યાયિત કરાયેલા સભ્યો અને વર્તનનો દાખલો હોય છે. વાસ્તવિક દુનિયામાં, ઑબ્જેક્ટ એ એક વાસ્તવિક એન્ટિટી છે જેની સાથે વપરાશકર્તા સંપર્ક કરે છે,
+જ્યારે વર્ગ એ ઑબ્જેક્ટ માટે માત્ર બ્લુપ્રિન્ટ છે. તેથી ઑબ્જેક્ટ્સ જગ્યાનો ઉપયોગ કરે છે અને કેટલાક લાક્ષણિક વર્તન ધરાવે છે.
+ઉદાહરણ તરીકે, ચોક્કસ કાર.
+
+[15]. Encapsulation can also be defined in two different ways:
+
+1) Data hiding: Encapsulation is the process of hiding unwanted information, such as restricting access to any member
+                of an object.
+
+2) Data binding: Encapsulation is the process of binding the data members and the methods together as a whole, as a class.
+[15]. એન્કેપ્સ્યુલેશનને બે અલગ અલગ રીતે પણ વ્યાખ્યાયિત કરી શકાય છે:
+
+1) ડેટા છુપાવો: એન્કેપ્સ્યુલેશન એ અનિચ્છનીય માહિતી છુપાવવાની પ્રક્રિયા છે, જેમ કે ઑબ્જેક્ટના કોઈપણ સભ્યની ઍક્સેસને પ્રતિબંધિત કરવી.
+
+2) ડેટા બાઈન્ડિંગ: એન્કેપ્સ્યુલેશન એ ડેટા સભ્યો અને પદ્ધતિઓને એકસાથે, એક વર્ગ તરીકે એકસાથે બાંધવાની પ્રક્રિયા છે.
+
+[16]. What is meant by Inheritance?
+The term “inheritance” means “receiving some quality or behavior from a parent to an offspring.” In object-oriented
+programming, inheritance is the mechanism by which an object or class (referred to as a child) is created using the
+definition of another object or class (referred to as a parent). Inheritance not only helps to keep the implementation
+simpler but also helps to facilitate code reuse.
+[16]. વારસાનો અર્થ શું છે?
+"વારસો" શબ્દનો અર્થ છે "માતાપિતા પાસેથી સંતાનને અમુક ગુણવત્તા અથવા વર્તન પ્રાપ્ત કરવું." ઑબ્જેક્ટ-ઓરિએન્ટેડ પ્રોગ્રામિંગમાં, વારસો એ પદ્ધતિ છે કે જેના દ્વારા ઑબ્જેક્ટ અથવા વર્ગ (બાળક તરીકે ઓળખવામાં આવે છે)
+ અન્ય ઑબ્જેક્ટ અથવા વર્ગની વ્યાખ્યાનો ઉપયોગ કરીને બનાવવામાં આવે છે (માતાપિતા તરીકે ઓળખવામાં આવે છે). વારસો માત્ર અમલીકરણને સરળ રાખવામાં મદદ કરે છે પરંતુ કોડના પુનઃઉપયોગને સરળ બનાવવામાં પણ
+ મદદ કરે છે.
+
+[17]. How much memory does a class occupy?
+Classes do not consume any memory. They are just a blueprint based on which objects are created. Now when objects are
+created, they actually initialize the class members and methods and therefore consume memory.
+[17]. વર્ગ કેટલી મેમરી ધરાવે છે?
+વર્ગો કોઈપણ મેમરીનો ઉપયોગ કરતા નથી. તે માત્ર એક બ્લુપ્રિન્ટ છે જેના આધારે વસ્તુઓ બનાવવામાં આવે છે. હવે જ્યારે ઑબ્જેક્ટ્સ બનાવવામાં આવે છે, ત્યારે તેઓ વાસ્તવમાં વર્ગના સભ્યો અને પદ્ધતિઓનો પ્રારંભ કરે છે
+ અને તેથી મેમરીનો વપરાશ કરે છે.
+
+[18]. What is a constructor?
+Constructors are special methods whose name is the same as the class name. The constructors serve the special purpose of
+initializing the objects.
+For example, suppose there is a class with the name “MyClass”, then when you instantiate this class, you pass the syntax:
+
+MyClass myClassObject = new MyClass();
+
+Now here, the method called after “new” keyword - MyClass(), is the constructor of this class. This will help to
+instantiate the member data and methods and assign them to the object myClassObject.
+[૧૮]. કન્સ્ટ્રક્ટર શું છે?
+કન્સ્ટ્રક્ટર એ વિશિષ્ટ પદ્ધતિઓ છે જેનું નામ વર્ગના નામ જેવું જ છે. કન્સ્ટ્રક્ટર ઑબ્જેક્ટને આરંભ કરવાના વિશેષ હેતુને પૂર્ણ કરે છે.
+ઉદાહરણ તરીકે, ધારો કે "MyClass" નામનો એક વર્ગ છે, તો પછી જ્યારે તમે આ વર્ગને ઇન્સ્ટન્ટ કરો છો, ત્યારે તમે વાક્યરચના પાસ કરો છો:
+
+MyClass myClassObject = new MyClass();
+
+હવે અહીં, "નવા" કીવર્ડ પછી કહેવાતી પદ્ધતિ - MyClass(), આ વર્ગનું કન્સ્ટ્રક્ટર છે. આ સભ્ય ડેટા અને પદ્ધતિઓને ઇન્સ્ટન્ટ કરવામાં મદદ કરશે અને તેને myClassObject ઑબ્જેક્ટમાં સોંપશે.
+
+[19]. Default constructor: 
+The default constructor is the constructor which doesn’t take any argument. It has no parameters.
+
+Parameterized constructor: 
+The constructors that take some arguments are known as parameterized constructors.
+[19]. ડિફૉલ્ટ કન્સ્ટ્રક્ટર:
+ડિફૉલ્ટ કન્સ્ટ્રક્ટર એ કન્સ્ટ્રક્ટર છે જે કોઈ દલીલ લેતો નથી. તેમાં કોઈ પરિમાણો નથી.
+
+પેરામીટરાઇઝ્ડ કન્સ્ટ્રક્ટર:
+કન્સ્ટ્રક્ટર જે કેટલીક દલીલો લે છે તે પેરામીટરાઇઝ્ડ કન્સ્ટ્રક્ટર તરીકે ઓળખાય છે.
+
+[20]. What is a destructor?
+Contrary to constructors, which initialize objects and specify space for them, Destructors are also special methods. 
+But destructors free up the resources and memory occupied by an object. Destructors are automatically called when an 
+object is being destroyed.
+[20]. વિનાશક શું છે?
+કન્સ્ટ્રક્ટરથી વિપરીત, જે ઑબ્જેક્ટને આરંભ કરે છે અને તેમના માટે જગ્યા નિર્દિષ્ટ કરે છે, ડિસ્ટ્રક્ટર પણ ખાસ પદ્ધતિઓ છે. પરંતુ વિનાશક પદાર્થ દ્વારા કબજામાં રહેલા સંસાધનો અને મેમરીને મુક્ત કરે છે. 
+જ્યારે ઑબ્જેક્ટનો નાશ થઈ રહ્યો હોય ત્યારે ડિસ્ટ્રક્ટરને આપમેળે બોલાવવામાં આવે છે. 
+
+[21]. Explain Inheritance with an example?
+Inheritance is one of the major features of object-oriented programming, by which an entity inherits some characteristics 
+and behaviors of some other entity and makes them their own. Inheritance helps to improve and facilitate code reuse.
+
+Let me explain to you with a common example. Let's take three different vehicles - a car, truck, or bus. These three 
+are entirely different from one another with their own specific characteristics and behavior. But. in all three, 
+you will find some common elements, like steering wheel, accelerator, clutch, brakes, etc. Though these elements 
+are used in different vehicles, still they have their own features which are common among all vehicles. This is achieved 
+with inheritance. The car, the truck, and the bus have all inherited the features like steering wheel, accelerator, clutch, 
+brakes, etc, and used them as their own. Due to this, they did not have to create these components from scratch, thereby 
+facilitating code reuse.
+[21]. વારસાને ઉદાહરણ સાથે સમજાવો?
+વારસો એ ઑબ્જેક્ટ-ઓરિએન્ટેડ પ્રોગ્રામિંગની મુખ્ય લાક્ષણિકતાઓમાંની એક છે, જેના દ્વારા એન્ટિટી કેટલીક અન્ય એન્ટિટીની કેટલીક લાક્ષણિકતાઓ અને વર્તનને વારસામાં મેળવે છે અને તેમને પોતાનું બનાવે છે. 
+વારસા કોડ પુનઃઉપયોગને સુધારવામાં અને સુવિધા આપવામાં મદદ કરે છે.
+
+ચાલો હું તમને એક સામાન્ય ઉદાહરણ સાથે સમજાવું. ચાલો ત્રણ જુદા જુદા વાહનો લઈએ - એક કાર, ટ્રક અથવા બસ. આ ત્રણેય પોતપોતાની વિશિષ્ટ વિશેષતાઓ અને વર્તનથી એકબીજાથી સંપૂર્ણપણે અલગ છે. 
+પણ. ત્રણેયમાં, તમને સ્ટીયરિંગ વ્હીલ, એક્સિલરેટર, ક્લચ, બ્રેક્સ વગેરે જેવા કેટલાક સામાન્ય તત્વો મળશે. જો કે આ તત્વોનો ઉપયોગ વિવિધ વાહનોમાં થાય છે, તેમ છતાં તેમની પોતાની વિશેષતાઓ છે 
+જે તમામ વાહનોમાં સામાન્ય છે. આ વારસા દ્વારા પ્રાપ્ત થાય છે. કાર, ટ્રક અને બસ તમામને સ્ટીયરીંગ વ્હીલ, એક્સીલેટર, ક્લચ, બ્રેક્સ વગેરે જેવી સુવિધાઓ વારસામાં મળી છે અને તેનો ઉપયોગ પોતાના તરીકે કરે છે. 
+આને કારણે, તેઓએ આ ઘટકોને શરૂઆતથી બનાવવાની જરૂર ન હતી, જેનાથી કોડના પુનઃઉપયોગની સુવિધા મળી.
+
+[22]. What is a subclass?
+The subclass is a part of Inheritance. The subclass is an entity, which inherits from another class. It is also known
+as the child class.
+[22]. પેટા વર્ગ શું છે?
+પેટા વર્ગ એ વારસાનો એક ભાગ છે. સબક્લાસ એ એક એન્ટિટી છે, જે અન્ય વર્ગમાંથી વારસામાં મળે છે. તેને બાળ વર્ગ તરીકે પણ ઓળખવામાં આવે છે.
+
+[23]. Define a superclass?
+Superclass is also a part of Inheritance. The superclass is an entity, which allows subclasses or child classes 
+to inherit from itself.
+[23]. સુપરક્લાસ વ્યાખ્યાયિત કરો?
+સુપરક્લાસ પણ વારસાનો એક ભાગ છે. સુપરક્લાસ એ એક એન્ટિટી છે, જે સબક્લાસ અથવા ચાઇલ્ડ ક્લાસને પોતાની પાસેથી વારસામાં મેળવવાની મંજૂરી આપે છે.
